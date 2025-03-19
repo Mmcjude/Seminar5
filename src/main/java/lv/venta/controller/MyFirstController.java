@@ -28,7 +28,7 @@ public class MyFirstController {
 		System.out.println("Data controller is called");
 		String data  = "Martin: " + rand.nextInt(0, 11);
 		model.addAttribute("box", data);
-		return "data-page";//it will show a data-page.html with data "Karina: 6"
+		return "data-page";//it will show a data-page.html with data "Martin: 6"
 	}
 	
 	@GetMapping("/testproduct")//localhost:8080/testproduct
