@@ -22,8 +22,8 @@ public class Seminar5Application {
 			@Override
 			public void run(String... args) throws Exception {
 				Product p1 = new Product("Banana", 1.99f, "Eco, yellow", 5);
-				Product p2 = new Product("Grapes", 4.99f, "Purple", 10);
-				Product p3 = new Product("Watermelon", 5.99f, "Sweet", 2);
+				Product p2 = new Product("Grapes", 2.99f, "Purple", 10);
+				Product p3 = new Product("Watermelon", 3.99f, "Sweet", 2);
 				prodRepo.save(p1);
 				prodRepo.save(p2);
 				prodRepo.save(p3);
